@@ -47,12 +47,11 @@ afterEvaluate {
         publications{
             release(MavenPublication){
                 from components.release
-                groupId = 'com.github.khanvessi'
+                groupId = 'com.demo'
                 artifactId = 'demolib'
                 version = '1.0.0'
             }
         }
-
         repositories {
             maven {
                 url "https://jitpack.io"
